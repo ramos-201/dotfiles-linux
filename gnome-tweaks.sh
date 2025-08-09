@@ -1,57 +1,55 @@
 #!/bin/bash
 # ------------------------------------------------------------
 # GNOME customization script
-# Applies UI, dock, and desktop tweaks automatically
+# GNOME Shell version: 46.0
+# Automatically applies UI, dock, desktop, and other tweaks
 # ------------------------------------------------------------
 
-echo "Applying GNOME settings..."
-
 # ---------------------------
-# Dark interface (appearance)
+# Set the interface to dark mode
 # ---------------------------
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
 # ---------------------------
-# Disable 'Show home folder' (desktop icons)
+# Hide the 'Home' folder icon from the desktop
 # ---------------------------
 gsettings set org.gnome.shell.extensions.ding show-home false
 
 # ---------------------------
-# Activate 'Auto-hide the dock'
+# Enable intelligent auto-hide for the dock
+# Hides dock when not in use and disables fixed position
 # ---------------------------
 gsettings set org.gnome.shell.extensions.dash-to-dock autohide true
 gsettings set org.gnome.shell.extensions.dash-to-dock intellihide true
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
 
 # ---------------------------
-# Disable 'Panel mode' (dock full height)
+# Disable panel mode (prevent dock from extending full height)
 # ---------------------------
 gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
 
 # ---------------------------
-# Set icon size in dock
+# Set maximum icon size in the dock to 40px
 # ---------------------------
 gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 40
 
 # ---------------------------
-# Move dock to the right side
+# Position the dock on the right side of the screen
 # ---------------------------
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-position RIGHT
 
 # ---------------------------
-# Configure dock behavior (show nothing)
+# Hide mounts and trash icons from the dock
 # ---------------------------
 gsettings set org.gnome.shell.extensions.dash-to-dock show-mounts false
 gsettings set org.gnome.shell.extensions.dash-to-dock show-trash false
 
 # ---------------------------
-# Disable notifications on lock screen
+# Hide notifications on the lock screen
 # ---------------------------
 gsettings set org.gnome.desktop.notifications show-in-lock-screen false
 
 # ---------------------------
-# Activate over-amplification (sound)
+# Enable sound over-amplification (allow volume above 100%)
 # ---------------------------
 gsettings set org.gnome.desktop.sound allow-volume-above-100-percent true
-
-echo "GNOME customization applied successfully!"

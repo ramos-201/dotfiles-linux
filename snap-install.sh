@@ -1,14 +1,12 @@
 #!/bin/bash
 # ------------------------------------------------------------
-# Snap application installation script
-# Installs selected applications using Snap
+# Snap Application Installation Script
+# Installs selected applications using Snap.
 # ------------------------------------------------------------
-
-echo "Installing applications via Snap..."
 
 # ---------------------------
 # Install Obsidian
+# Official website: https://obsidian.md/download
+# It auto-configures with the vault in your personal Google Drive
 # ---------------------------
 sudo snap install obsidian --classic
-
-echo "Snap applications installed successfully!"
