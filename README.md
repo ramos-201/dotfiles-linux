@@ -9,15 +9,32 @@ ___
 1. Hide the Top Bar in GNOME using Just Perfection
 
    - Open Extension Manager:
-   ```bash
+   ```commandline
     extension-manager
    ```
 
    - Search for and install the "Just Perfection" extension.
-
    - In the "Just Perfection" extension settings, activate "Minimal".
-___
 
+2. Mount Google Drive
+   - Open Extension rclone:
+   ```commandline
+    rclone config
+    ```
+   - Follow the instructions 
+   - Mount Google Drive
+     ```commandline
+     mkdir ~/GoogleDrive
+     rclone mount gdrive: ~/GoogleDrive --vfs-cache-mode writes
+     ```
+___
+## Commands
+
+- mount local Google Drive
+```commandline
+rclone mount gdrive: ~/GoogleDrive --vfs-cache-mode writes
+```
+___
 ## Keyboard Shortcuts
 
 | **Description**        | **Shortcut**    |

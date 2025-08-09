@@ -50,8 +50,8 @@ gsettings set org.gnome.shell.extensions.dash-to-dock show-trash false
 gsettings set org.gnome.desktop.notifications show-in-lock-screen false
 
 # ---------------------------
-# Install GNOME Extension Manager
+# Activate over-amplification (sound)
 # ---------------------------
-sudo apt install -y gnome-shell-extension-manager
+gsettings set org.gnome.desktop.sound allow-volume-above-100-percent true
 
 echo "GNOME customization applied successfully!"
