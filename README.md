@@ -1,5 +1,4 @@
 # dotfiles-linux
-___
 
 ## Requirements
 - GNOME Shell 46.0
@@ -17,8 +16,8 @@ ___
    - Search for and install the "Just Perfection" extension.
 
    - In the "Just Perfection" extension settings, activate "Minimal".
+___
 
-------------------------------------------------------------
 ## Keyboard Shortcuts
 
 | **Description**        | **Shortcut**    |
