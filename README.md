@@ -4,19 +4,17 @@
 
 - GNOME Shell 46.0
 ___
-## Apps via Snap
+## Apps and extensions
 
 - Obsidian
-___
-## Extensions via apt
-
+- Alacritty
 - gnome-shell-extension-manager
 - rclone (Google Drive)
 ___
 # Commands
 - Mount local Google Drive:
 ```commandline
-    rclone mount gdrive: ~/GoogleDrive --vfs-cache-mode writes
+rclone mount gdrive: ~/GoogleDrive --vfs-cache-mode writes
 ```
 ___
 ## Keyboard Shortcuts

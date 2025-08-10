@@ -35,3 +35,16 @@ sudo apt install gnome-shell-extension-manager
 #       rclone mount gdrive: ~/GoogleDrive --vfs-cache-mode writes
 # ---------------------------
 sudo apt install rclone
+
+# ---------------------------
+# Install Alacritty
+# Official website: https://github.com/alacritty/alacritty/blob/master/INSTALL.md
+#
+# Open ui:
+#   alacritty
+# ---------------------------
+sudo apt install alacritty
+
+# Copy Alacritty settings
+mkdir -p ~/.config/alacritty
+cp /resources/alacritty.toml ~/.config/alacritty/alacritty.toml
