@@ -37,7 +37,22 @@ sudo apt install gnome-shell-extension-manager
 sudo apt install rclone
 
 # ---------------------------
+# Install Tmux
+# Tmux is a terminal multiplexer: it enables a number of terminals
+# to be created, accessed, and controlled from a single screen.
+# Official website: github.com/tmux/tmux
+#
+# Open ui:
+#   tmux
+# ---------------------------
+sudo apt install tmux
+
+# Copy Tmux settings
+cp resources/tmux.conf ~/.tmux.conf
+
+# ---------------------------
 # Install Alacritty
+#  Alacritty is a modern terminal emulator that comes with sensible defaults, but allows for extensive configuration
 # Official website: https://github.com/alacritty/alacritty/blob/master/INSTALL.md
 #
 # Open ui:

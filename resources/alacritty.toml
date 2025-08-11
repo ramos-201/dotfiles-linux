@@ -7,3 +7,7 @@ style = { shape = "Beam", blinking = "On" }
 
 [mouse]
 hide_when_typing = true
+
+[shell]
+program = "/bin/bash"
+args = ["-c", "if [ -z \"$TMUX\" ]; then exec tmux new-session -A -s main; else exec bash; fi"]
