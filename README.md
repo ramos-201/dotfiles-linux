@@ -9,6 +9,7 @@ ___
 - Obsidian
 - Tmux
 - Alacritty
+- Zsh and Oh-My-Zsh
 - gnome-shell-extension-manager
 - rclone
 
