@@ -10,6 +10,10 @@ ___
 - Tmux
 - Alacritty
 - gnome-shell-extension-manager
+- rclone
+
+### Manual configuration
+- gnome-shell-extension-manager (Just Perfection)
 - rclone (Google Drive)
 ___
 # Commands
