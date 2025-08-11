@@ -1,3 +1,4 @@
+#!/bin/bash
 # ---------------------------
 # Install Oh-my-zsh
 # Oh My Zsh is an open source, community-driven framework
