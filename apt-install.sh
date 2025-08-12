@@ -84,3 +84,11 @@ sudo apt install zsh
 # Set Zsh as the default shell
 # ---------------------------
 chsh -s $(which zsh)
+
+
+# ---------------------------
+# Install Vim
+# Vim is a powerful text editor widely used in terminals
+# Official website: https://www.vim.org/
+# ---------------------------
+sudo apt install vim

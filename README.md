@@ -10,6 +10,7 @@ ___
 - Tmux
 - Alacritty
 - Zsh and Oh-My-Zsh
+- VIM
 - gnome-shell-extension-manager
 - rclone
 
@@ -54,4 +55,7 @@ ___
 | Enter selection mode             | Alt + s / Alt + S      |
 | Begin selection (in copy mode)   | s / S                  |
 | Copy selection (in copy mode)    | c / C                  |
+
+### Console
+...
 ___
